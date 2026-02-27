@@ -59,9 +59,7 @@ BraTS2021
   - Inference
 
     ```
-    python main.py --exp-name "CKD" \
-        --device 0 --dataset-folder "dataset/" --batch-size 1 \
-        --workers 1 --mode "test"
+    python main.py --mode test --dataset-folder dataset --exp-name CKD --devices 0
     ```
 
 
