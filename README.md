@@ -4,7 +4,7 @@
 ## Introduction
 This is the source code of our paper **[MA-HybridBTS: Modality-Aware Multi-Scale Hybrid 3D Conv-Transformer for Brain Tumor Segmentation](https://ieeexplore.ieee.org/document/11356130)**, which is implemented based on the code of [CKD-TransBTS](https://github.com/Milkomeda98/CKD-TransBTS).
 
-![outline](Framework.pdf)
+![outline](Framework.png)
 
 ## Abstract
 Brain tumor segmentation (BTS) on magnetic resonance imaging (MRI) is essential for diagnosis yet remains challenging due to substantial inter-patient variations and the need to integrate cross-modal interactions. In this work, we propose a modality-aware BTS framework, MA-HybridBTS, to address these challenges through three key components. First, we introduce a modality-aware multi-scale feature extraction (MAMS) strategy that employs 3D dilated convolutions with tailored dilation rates to each sequence, concurrently refining tumor-core details while expanding global context. Second, we present a modality-aware hierarchical fusion (MAHF) module that explicitly leverages clinically established inter-modal dependencies to guide progressive feature fusion. Finally, we propose an adaptive loss function (ALF) that dynamically up-weights sub-regions with larger losses, thereby improving segmentation accuracy for smaller and harder-to-delineate tumor compartments. The proposed methods achieve state-of-the-art performance on the BraTS2021 dataset, delivering an average Dice score of 0.8984 and an average 95% Hausdorff distance (HD95) of 4.14 mm. Ablation studies further validate the effectiveness of each proposed component.
